@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS college;
+
+USE college;
+
+CREATE TABLE IF NOT EXISTS student (
+    id INT PRIMARY KEY,
+    name VARCHAR(30) NOT NULL,
+    branch VARCHAR(20) NOT NULL
+);
+
+SELECT * FROM student;
